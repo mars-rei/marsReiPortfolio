@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@source "./"; 
+
+@font-face {
+  font-family: 'Talina';
+  src: url('./assets/fonts/Talina-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@theme {
+  --font-talina: 'Talina', sans-serif;
+
+  --color-wine: #651f30;
+  --color-dusty-mauve: #a8697a;
+  --color-cocoa: #3e2c22;
+  --color-candlelit-cream: #eddfc4;
+  --color-sage: #b7bb88;
+}
+
+html, body, #root {
+  background-color: var(--color-candlelit-cream);
+}
